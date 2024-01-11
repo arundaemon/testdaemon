@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="Up_Down_Arrow" data-name="Up Down Arrow" transform="translate(-0.226)">
+    <rect id="Rectangle_9537" data-name="Rectangle 9537" width="24" height="24" transform="translate(0.226)" fill="rgba(240,240,240,0)"/>
+    <g id="Group_37064" data-name="Group 37064" transform="translate(7 2)">
+      <path id="Polygon_2" data-name="Polygon 2" d="M4.152,1.357a1,1,0,0,1,1.7,0l3.2,5.113A1,1,0,0,1,8.2,8H1.8A1,1,0,0,1,.956,6.47Z" transform="translate(0.226)" fill="#202124"/>
+      <path id="Polygon_3" data-name="Polygon 3" d="M4.152,1.357a1,1,0,0,1,1.7,0l3.2,5.113A1,1,0,0,1,8.2,8H1.8A1,1,0,0,1,.956,6.47Z" transform="translate(10.226 21) rotate(180)" fill="#202124"/>
+    </g>
+  </g>
+</svg>

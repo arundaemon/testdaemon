@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg
+xmlns="http://www.w3.org/2000/svg"
+width="35"
+height="35"
+viewBox="0 0 24 24"
+>
+<g fill="none" fillRule="evenodd" stroke="none" strokeWidth="1">
+  <g fill="#212121" fillRule="nonzero">
+    <path d="M13.25 2.98a2.25 2.25 0 012.25 2.25V7h3.25A2.25 2.25 0 0121 9.25v11a.75.75 0 01-.75.75H3.75a.75.75 0 01-.75-.75v-8A2.25 2.25 0 015.25 10H8.5V5.23a2.25 2.25 0 012.25-2.25h2.5zm5.5 5.52H15.5v11h4V9.25a.75.75 0 00-.75-.75zm-5.5-4.02h-2.5a.75.75 0 00-.75.75V19.5h4V5.23a.75.75 0 00-.75-.75zM8.5 11.5H5.25a.75.75 0 00-.75.75v7.25h4v-8z"></path>
+  </g>
+</g>
+</svg>

@@ -1,0 +1,18 @@
+FROM  node:16
+
+WORKDIR /analysis
+
+COPY package.json .
+
+#RUN npm install 
+COPY . .
+RUN rm -f package-lock.json
+RUN rm -f /app/package-lock.json
+RUN npm install
+RUN npm install pm2 -g
+EXPOSE 3001
+ARG DOCKER_ENV
+ENV NODE_ENV=${DOCKER_ENV}
+# RUN wget -P /analysis/server/config/env https://test-datalakeconstants.extramarks.com/${DOCKER_ENV}/${DOCKER_ENV}.js
+# RUN wget -P /analysis/server https://test-datalakeconstants.extramarks.com/${DOCKER_ENV}/newrelic.js
+CMD ["pm2-runtime", "server/server.js"]

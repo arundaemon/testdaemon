@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+  <g id="Group_42965" data-name="Group 42965" transform="translate(-29 -200)">
+    <g id="Group_42947" data-name="Group 42947" transform="translate(-387 -125)">
+      <g id="Group_42607" data-name="Group 42607" transform="translate(416 325)">
+        <rect id="Rectangle_6222" data-name="Rectangle 6222" width="30" height="30" rx="4" fill="#f45e29"/>
+      </g>
+      <g id="Horizontal_bar_chart" data-name="Horizontal bar chart" transform="translate(419.947 328.947)">
+        <rect id="Rectangle_58" data-name="Rectangle 58" width="22.105" height="22.105" transform="translate(0.053 0.053)" fill="#85888a" opacity="0"/>
+      </g>
+    </g>
+    <g id="Group_42960" data-name="Group 42960" transform="translate(-1)">
+      <path id="Path_70241" data-name="Path 70241" d="M-1.226,285.09v16h16" transform="translate(38.226 -78.09)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+      <g id="noun_Graph_868133" transform="translate(40.158 208.67)">
+        <path id="Path_70444" data-name="Path 70444" d="M15.586,12.793l2.793,1.4L21.173,10V21.173H10V15.586l2.793,1.4Z" transform="translate(-10 -10)" fill="none" stroke="#fff" stroke-linejoin="round" stroke-width="1.3"/>
+      </g>
+    </g>
+  </g>
+</svg>

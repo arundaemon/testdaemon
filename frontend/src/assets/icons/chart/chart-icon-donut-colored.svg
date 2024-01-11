@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+  <g id="Group_42873" data-name="Group 42873" transform="translate(-696 -319)">
+    <g id="Group_42632" data-name="Group 42632" transform="translate(696 319)">
+      <g id="Group_42612" data-name="Group 42612" transform="translate(0)">
+        <rect id="Rectangle_6222" data-name="Rectangle 6222" width="30" height="30" rx="4" fill="#f45e29"/>
+      </g>
+    </g>
+    <g id="Donut_chart" data-name="Donut chart" transform="translate(701 324)">
+      <rect id="Rectangle_58" data-name="Rectangle 58" width="20" height="20" transform="translate(0 0)" fill="#e0e0e0" opacity="0"/>
+      <g id="noun_donut_chart_1613973" data-name="noun_donut chart_1613973" transform="translate(0 1)">
+        <g id="Group_42872" data-name="Group 42872">
+          <path id="Path_70248" data-name="Path 70248" d="M14.5,5A9.5,9.5,0,1,0,24,14.5,9.51,9.51,0,0,0,14.5,5Zm-.633,1.293V8.411A6.122,6.122,0,1,0,18.359,19.25l1.5,1.5a8.231,8.231,0,1,1-5.99-14.455Zm1.267,0a8.217,8.217,0,0,1,7.574,7.574H20.589a6.139,6.139,0,0,0-5.456-5.456ZM14.5,9.644A4.856,4.856,0,1,1,9.644,14.5,4.846,4.846,0,0,1,14.5,9.644Zm6.089,5.489h2.118a8.186,8.186,0,0,1-1.953,4.724l-1.5-1.5A6.086,6.086,0,0,0,20.589,15.133Z" transform="translate(-5 -5)" fill="#fff" stroke="#fff" stroke-width="0.2"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

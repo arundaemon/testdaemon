@@ -1,0 +1,132 @@
+:root {
+    --color-dark-blue: #1E2537;
+    --color-light-gray: #ECECEC;
+    --color-light-green: rgb(225,229,162);
+    --color-dark-green: rgb(57,132,162);
+  }
+  
+  .table {
+    font-family: -apple-system, BlinkMacSystemFont, system-ui, sans-serif;
+    font-size: 14px;
+    width: 100%;
+    overflow-x: auto;
+  }
+  
+  .header {
+    display: flex;
+  }
+  
+  .leadingHeader {
+    display: flex;
+    width: 100px;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    height: 30px; /* Adjust the height as needed */
+    margin: 20px 10px; /* Adjust the top and bottom margin to move the text down */
+}
+
+  
+  .headerItem {
+    display: flex;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    color: rgb(153,153,153);
+    background: var(--color-light-gray);
+    width: 25%;
+  }
+  
+  .row {
+    display: flex;
+    /* flex-wrap: wrap; */
+    height: 50px;
+  }
+  
+  .cell {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    flex: 1;
+    justify-items: center;
+    align-items: center;
+    color: white;
+    font-weight: 900;
+  }
+  
+  [data-color] {
+    color: green;
+    content: attr(data-color);
+  }
+  
+  .cell:hover {
+    opacity: 0.6;
+    cursor: pointer;
+  }
+  
+  .dayOfWeekCol {
+    display: flex;
+    width: 100px;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+  }
+  
+  .dayOfWeekCol:hover {
+    opacity: 0.6;
+    cursor: pointer;
+  }
+
+/* CSS for ChartComponent */
+.chart-container {
+    display: flex;
+    flex-direction: row; /* Display charts horizontally */
+    align-items: flex-start;
+  }
+  
+  .data-point {
+    border: 1px solid #1f1e1e;
+    margin-left: initial;
+    margin-right: auto;
+    margin-top: 11px;
+    margin-bottom: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+   
+  }
+  
+  .y-axis-container {
+    display: flex;
+    flex-direction: column; /* Display y-axis value vertically */
+    align-items: flex-end;
+    justify-content: center;
+  }
+  
+  .y-axis-value {
+    font-weight: bold;
+    margin-bottom: 5px;
+    height: 50px;
+    margin: 10px;
+  }
+  
+  .x-axis-details {
+    display: flex;
+    flex-direction: row; /* Display x-axis values horizontally */
+    /* flex-wrap: wrap; */
+    height: 50px;
+    width: 80%;
+    
+  }
+  
+  .x-detail {
+    display: flex;
+    flex-direction: column; /* Display array items vertically one above the other */
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    width: 25%;
+  }
+  

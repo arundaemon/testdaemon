@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+  <g id="Group_42953" data-name="Group 42953" transform="translate(-416 -325)">
+    <g id="Group_42607" data-name="Group 42607" transform="translate(416 325)">
+      <rect id="Rectangle_6222" data-name="Rectangle 6222" width="30" height="30" rx="4" fill="#f45e29"/>
+    </g>
+    <g id="Horizontal_bar_chart" data-name="Horizontal bar chart" transform="translate(418 330)">
+      <rect id="Rectangle_58" data-name="Rectangle 58" width="22.105" height="22.105" transform="translate(2 -1)" fill="#6a6a6a" opacity="0"/>
+    </g>
+    <g id="Group_42869" data-name="Group 42869" transform="translate(-305.863 301.949)">
+      <g id="Group_42897" data-name="Group 42897" transform="translate(727.947 30.051)">
+        <path id="Rectangle_10080" data-name="Rectangle 10080" d="M1.5,0H16.417a1.5,1.5,0,0,1,1.5,1.5V3a0,0,0,0,1,0,0H0A0,0,0,0,1,0,3V1.5A1.5,1.5,0,0,1,1.5,0Z" transform="translate(0 0)" fill="#fff"/>
+        <g id="Group_42896" data-name="Group 42896" transform="translate(0 1.13)">
+          <g id="Rectangle_10090" data-name="Rectangle 10090" transform="translate(0 0)" fill="none" stroke="#fff" stroke-width="1.5">
+            <rect width="17.917" height="14.87" rx="1" stroke="none"/>
+            <rect x="0.75" y="0.75" width="16.417" height="13.37" rx="0.25" fill="none"/>
+          </g>
+          <line id="Line_10" data-name="Line 10" y2="12.87" transform="translate(5.972 0.982)" fill="none" stroke="#fff" stroke-width="1"/>
+          <line id="Line_12" data-name="Line 12" x1="15.917" transform="translate(1 5.453)" fill="none" stroke="#fff" stroke-width="1"/>
+          <line id="Line_13" data-name="Line 13" x1="15.917" transform="translate(1 9.417)" fill="none" stroke="#fff" stroke-width="1"/>
+          <line id="Line_11" data-name="Line 11" y2="12.87" transform="translate(11.944 0.982)" fill="none" stroke="#fff" stroke-width="1"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

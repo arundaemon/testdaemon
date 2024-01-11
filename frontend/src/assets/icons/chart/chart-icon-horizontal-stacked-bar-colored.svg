@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+  <g id="Group_43013" data-name="Group 43013" transform="translate(-416 -325)">
+    <g id="Group_42607" data-name="Group 42607" transform="translate(416 325)">
+      <rect id="Rectangle_6222" data-name="Rectangle 6222" width="30" height="30" rx="4" fill="#f45e29"/>
+    </g>
+    <g id="Horizontal_bar_chart" data-name="Horizontal bar chart" transform="translate(419.947 328.947)">
+      <rect id="Rectangle_58" data-name="Rectangle 58" width="22.105" height="22.105" transform="translate(0 0)" fill="#6a6a6a" opacity="0"/>
+      <g id="Group_37810" data-name="Group 37810" transform="translate(4.158 3.947)">
+        <g id="Group_42823" data-name="Group 42823" transform="translate(-0.105 -0.895)">
+          <path id="Path_70241" data-name="Path 70241" d="M-1.226,285.09v16h16" transform="translate(1.226 -285.09)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+          <g id="Group_43012" data-name="Group 43012" transform="translate(16 -1) rotate(90)">
+            <g id="Rectangle_10083" data-name="Rectangle 10083" transform="translate(4 1)" fill="#fff" stroke="#fff" stroke-width="1">
+              <rect width="2" height="7" rx="0.5" stroke="none"/>
+              <rect x="0.5" y="0.5" width="1" height="6" fill="none"/>
+            </g>
+            <g id="Rectangle_10086" data-name="Rectangle 10086" transform="translate(8 7)" fill="#fff" stroke="#fff" stroke-width="1">
+              <rect width="2" height="6" rx="0.5" stroke="none"/>
+              <rect x="0.5" y="0.5" width="1" height="5" fill="none"/>
+            </g>
+            <g id="Rectangle_10088" data-name="Rectangle 10088" transform="translate(12 4)" fill="#fff" stroke="#fff" stroke-width="1">
+              <rect width="2" height="9" rx="0.5" stroke="none"/>
+              <rect x="0.5" y="0.5" width="1" height="8" fill="none"/>
+            </g>
+            <g id="Rectangle_10084" data-name="Rectangle 10084" transform="translate(4 9)" fill="#fff" stroke="#fff" stroke-width="1">
+              <rect width="2" height="4" rx="0.5" stroke="none"/>
+              <rect x="0.5" y="0.5" width="1" height="3" fill="none"/>
+            </g>
+            <g id="Rectangle_10085" data-name="Rectangle 10085" transform="translate(8 1)" fill="#fff" stroke="#fff" stroke-width="1">
+              <rect width="2" height="5" rx="0.5" stroke="none"/>
+              <rect x="0.5" y="0.5" width="1" height="4" fill="none"/>
+            </g>
+            <g id="Rectangle_10087" data-name="Rectangle 10087" transform="translate(12 1)" fill="#fff" stroke="#fff" stroke-width="1">
+              <rect width="2" height="2" rx="0.5" stroke="none"/>
+              <rect x="0.5" y="0.5" width="1" height="1" fill="none"/>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

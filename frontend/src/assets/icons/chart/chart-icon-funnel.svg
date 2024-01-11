@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+  <g id="Group_43027" data-name="Group 43027" transform="translate(-29 -410)">
+    <g id="Group_42978" data-name="Group 42978" transform="translate(-671 88)">
+      <g id="Group_42632" data-name="Group 42632" transform="translate(-10 -6)">
+        <g id="Group_42612" data-name="Group 42612" transform="translate(706 325)">
+          <g id="Rectangle_6222" data-name="Rectangle 6222" transform="translate(4 3)" fill="#fff" stroke="#dedede" stroke-width="1">
+            <rect width="30" height="30" rx="4" stroke="none"/>
+            <rect x="0.5" y="0.5" width="29" height="29" rx="3.5" fill="none"/>
+          </g>
+        </g>
+      </g>
+      <g id="Donut_chart" data-name="Donut chart" transform="translate(553 92.999)">
+        <rect id="Rectangle_58" data-name="Rectangle 58" width="24" height="24" transform="translate(150 232.001)" fill="#e0e0e0" opacity="0"/>
+      </g>
+    </g>
+    <path id="Path_70474" data-name="Path 70474" d="M731.942,1138.444h16l-7.031,8.028v5.647l-2.381,2.159v-7.806Z" transform="translate(-695.442 -720.944)" fill="none" stroke="#707070" stroke-linejoin="round" stroke-width="1.5"/>
+  </g>
+</svg>

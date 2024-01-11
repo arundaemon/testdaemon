@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="390" height="283" viewBox="0 0 390 283">
+  <g id="Group_47104" data-name="Group 47104" transform="translate(-81 -40)">
+    <g id="Group_47100" data-name="Group 47100" transform="translate(81 40)">
+      <rect id="Rectangle_9653" data-name="Rectangle 9653" width="45" height="84.567" rx="3" transform="translate(0 198.433)" fill="#e46179"/>
+      <path id="Path_53017" data-name="Path 53017" d="M2.773,0H42.227A2.529,2.529,0,0,1,45,2.173v106.1a2.529,2.529,0,0,1-2.773,2.173H2.773A2.529,2.529,0,0,1,0,108.271V2.173A2.529,2.529,0,0,1,2.773,0Z" transform="translate(0 87.989)" fill="#4482ff"/>
+      <rect id="Rectangle_10068" data-name="Rectangle 10068" width="45" height="88" rx="3" transform="translate(0 0)" fill="#fa9e2d"/>
+    </g>
+    <g id="Group_47101" data-name="Group 47101" transform="translate(196 40)">
+      <rect id="Rectangle_9653-2" data-name="Rectangle 9653" width="45" height="50.315" rx="3" transform="translate(0 232.685)" fill="#e46179"/>
+      <rect id="Rectangle_10069" data-name="Rectangle 10069" width="45" height="133" rx="3" transform="translate(0 99.907)" fill="#4482ff"/>
+      <rect id="Rectangle_10068-2" data-name="Rectangle 10068" width="45" height="101" rx="3" transform="translate(0)" fill="#fa9e2d"/>
+    </g>
+    <g id="Group_47102" data-name="Group 47102" transform="translate(311 40)">
+      <rect id="Rectangle_9653-3" data-name="Rectangle 9653" width="45" height="135.073" rx="3" transform="translate(0 147.927)" fill="#e46179"/>
+      <rect id="Rectangle_10067" data-name="Rectangle 10067" width="45" height="71" rx="3" transform="translate(0 78.948)" fill="#4482ff"/>
+      <g id="Group_42692" data-name="Group 42692">
+        <rect id="Rectangle_10068-3" data-name="Rectangle 10068" width="45" height="82" rx="3" fill="#fa9e2d"/>
+      </g>
+    </g>
+    <g id="Group_47103" data-name="Group 47103" transform="translate(426 40)">
+      <rect id="Rectangle_9653-4" data-name="Rectangle 9653" width="45" height="73.04" rx="3" transform="translate(0 209.96)" fill="#e46179"/>
+      <rect id="Rectangle_10067-2" data-name="Rectangle 10067" width="45" height="76" rx="3" transform="translate(0 133.909)" fill="#4482ff"/>
+      <g id="Group_42692-2" data-name="Group 42692" transform="translate(0 0)">
+        <rect id="Rectangle_10068-4" data-name="Rectangle 10068" width="45" height="134" rx="3" fill="#fa9e2d"/>
+      </g>
+    </g>
+  </g>
+</svg>

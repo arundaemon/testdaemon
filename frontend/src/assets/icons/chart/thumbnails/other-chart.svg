@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="580" height="302" viewBox="0 0 580 302">
+  <defs>
+    <filter id="Rectangle_9655" x="0" y="0" width="288" height="150" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.102"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_9655-2" x="0" y="152" width="288" height="150" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-2"/>
+      <feFlood flood-opacity="0.102"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_9655-3" x="292" y="0" width="288" height="150" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-3"/>
+      <feFlood flood-opacity="0.102"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_9655-4" x="292" y="152" width="288" height="150" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-4"/>
+      <feFlood flood-opacity="0.102"/>
+      <feComposite operator="in" in2="blur-4"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_47129" data-name="Group 47129" transform="translate(-11 -27)">
+    <g id="Group_47109" data-name="Group 47109" transform="translate(20 35.725)">
+      <g transform="matrix(1, 0, 0, 1, -9, -8.72)" filter="url(#Rectangle_9655)">
+        <rect id="Rectangle_9655-5" data-name="Rectangle 9655" width="270" height="132" rx="8" transform="translate(9 9)" fill="#fa9e2d"/>
+      </g>
+      <g id="Group_42765" data-name="Group 42765" transform="translate(22.092 22.092)">
+        <text id="_---" data-name="---" transform="translate(-0.092 58.184)" fill="#fff" font-size="32" font-family="OpenSans-Bold, Open Sans" font-weight="700" opacity="0.3"><tspan x="0" y="0">---</tspan></text>
+        <rect id="Rectangle_10071" data-name="Rectangle 10071" width="131" height="23" transform="translate(-0.092 0.184)" fill="#fff" opacity="0.3"/>
+        <rect id="Rectangle_10072" data-name="Rectangle 10072" width="198" height="23" transform="translate(-0.092 68.184)" fill="#fff" opacity="0.3"/>
+      </g>
+    </g>
+    <g id="Group_47114" data-name="Group 47114" transform="translate(20 187.725)">
+      <g transform="matrix(1, 0, 0, 1, -9, -160.72)" filter="url(#Rectangle_9655-2)">
+        <rect id="Rectangle_9655-6" data-name="Rectangle 9655" width="270" height="132" rx="8" transform="translate(9 161)" fill="#80cc8c"/>
+      </g>
+      <g id="Group_42765-2" data-name="Group 42765" transform="translate(22.092 22.092)">
+        <text id="_--" data-name="--" transform="translate(-0.092 58.184)" fill="#fff" font-size="32" font-family="OpenSans-Bold, Open Sans" font-weight="700" opacity="0.3"><tspan x="0" y="0">--</tspan></text>
+        <rect id="Rectangle_10071-2" data-name="Rectangle 10071" width="131" height="23" transform="translate(-0.092 0.184)" fill="#fff" opacity="0.3"/>
+        <rect id="Rectangle_10072-2" data-name="Rectangle 10072" width="198" height="23" transform="translate(-0.092 68.184)" fill="#fff" opacity="0.3"/>
+      </g>
+    </g>
+    <g id="Group_47111" data-name="Group 47111" transform="translate(312 35.725)">
+      <g transform="matrix(1, 0, 0, 1, -301, -8.72)" filter="url(#Rectangle_9655-3)">
+        <rect id="Rectangle_9655-7" data-name="Rectangle 9655" width="270" height="132" rx="8" transform="translate(301 9)" fill="#4482ff"/>
+      </g>
+      <g id="Group_42765-3" data-name="Group 42765" transform="translate(22.092 22.092)">
+        <text id="_----2" data-name="---" transform="translate(-0.092 58.184)" fill="#fff" font-size="32" font-family="OpenSans-Bold, Open Sans" font-weight="700" opacity="0.3"><tspan x="0" y="0">---</tspan></text>
+        <rect id="Rectangle_10071-3" data-name="Rectangle 10071" width="131" height="23" transform="translate(-0.092 0.184)" fill="#fff" opacity="0.3"/>
+        <rect id="Rectangle_10072-3" data-name="Rectangle 10072" width="198" height="23" transform="translate(-0.092 68.184)" fill="#fff" opacity="0.3"/>
+      </g>
+    </g>
+    <g id="Group_47115" data-name="Group 47115" transform="translate(312 187.725)">
+      <g transform="matrix(1, 0, 0, 1, -301, -160.72)" filter="url(#Rectangle_9655-4)">
+        <rect id="Rectangle_9655-8" data-name="Rectangle 9655" width="270" height="132" rx="8" transform="translate(301 161)" fill="#e46179"/>
+      </g>
+      <g id="Group_42765-4" data-name="Group 42765" transform="translate(22.092 22.092)">
+        <text id="_---2" data-name="--" transform="translate(-0.092 58.184)" fill="#fff" font-size="32" font-family="OpenSans-Bold, Open Sans" font-weight="700" opacity="0.3"><tspan x="0" y="0">--</tspan></text>
+        <rect id="Rectangle_10071-4" data-name="Rectangle 10071" width="131" height="23" transform="translate(-0.092 0.184)" fill="#fff" opacity="0.3"/>
+        <rect id="Rectangle_10072-4" data-name="Rectangle 10072" width="198" height="23" transform="translate(-0.092 68.184)" fill="#fff" opacity="0.3"/>
+      </g>
+    </g>
+  </g>
+</svg>

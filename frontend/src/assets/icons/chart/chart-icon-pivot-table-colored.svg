@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+  <g id="Group_42987" data-name="Group 42987" transform="translate(-70 -410)">
+    <g id="Group_42986" data-name="Group 42986" transform="translate(-630 88)">
+      <g id="Group_42632" data-name="Group 42632" transform="translate(-10 -6)">
+        <g id="Group_42612" data-name="Group 42612" transform="translate(706 325)">
+          <rect id="Rectangle_6222" data-name="Rectangle 6222" width="30" height="30" rx="4" transform="translate(4 3)" fill="#f45e29"/>
+        </g>
+      </g>
+      <g id="Donut_chart" data-name="Donut chart" transform="translate(553 92.999)">
+        <rect id="Rectangle_58" data-name="Rectangle 58" width="24" height="24" transform="translate(150 232.001)" fill="#e0e0e0" opacity="0"/>
+      </g>
+    </g>
+    <g id="Group_42985" data-name="Group 42985" transform="translate(42 1)">
+      <g id="noun_List_Numbered_120493" data-name="noun_List Numbered_120493" transform="translate(34 415)">
+        <g id="Rectangle_10081" data-name="Rectangle 10081" fill="none" stroke="#fff" stroke-width="1.5">
+          <rect width="7.043" height="6.838" rx="1" stroke="none"/>
+          <rect x="0.75" y="0.75" width="5.543" height="5.338" rx="0.25" fill="none"/>
+        </g>
+      </g>
+      <g id="noun_List_Numbered_120493-2" data-name="noun_List Numbered_120493" transform="translate(42.601 415.018)">
+        <g id="Rectangle_10081-2" data-name="Rectangle 10081" transform="translate(0 0)" fill="none" stroke="#fff" stroke-width="1.5">
+          <rect width="8.601" height="6.881" rx="1" stroke="none"/>
+          <rect x="0.75" y="0.75" width="7.101" height="5.381" rx="0.25" fill="none"/>
+        </g>
+      </g>
+      <g id="noun_List_Numbered_120493-3" data-name="noun_List Numbered_120493" transform="translate(34.19 423.601)">
+        <g id="Rectangle_10081-3" data-name="Rectangle 10081" fill="none" stroke="#fff" stroke-width="1.5">
+          <rect width="6.881" height="8.601" rx="1" stroke="none"/>
+          <rect x="0.75" y="0.75" width="5.381" height="7.101" rx="0.25" fill="none"/>
+        </g>
+      </g>
+      <g id="Group_42981" data-name="Group 42981" transform="translate(43.14 423.907)">
+        <path id="Path_70448" data-name="Path 70448" d="M337.118,950.033H342.2v-5.458" transform="translate(-336.058 -943.495)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+        <path id="Path_70449" data-name="Path 70449" d="M342.339,1166.942l-1.665-1.484,1.665-1.665" transform="translate(-340.674 -1158.919)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+        <path id="Path_70450" data-name="Path 70450" d="M1.665,3.149,0,1.665,1.665,0" transform="translate(7.714) rotate(90)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+      </g>
+    </g>
+  </g>
+</svg>

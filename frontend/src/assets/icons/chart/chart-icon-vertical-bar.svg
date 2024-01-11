@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+  <g id="Group_42880" data-name="Group 42880" transform="translate(-416 -325)">
+    <g id="Group_42607" data-name="Group 42607" transform="translate(416 325)">
+      <g id="Rectangle_6222" data-name="Rectangle 6222" fill="#fff" stroke="#dedede" stroke-width="1">
+        <rect width="30" height="30" rx="4" stroke="none"/>
+        <rect x="0.5" y="0.5" width="29" height="29" rx="3.5" fill="none"/>
+      </g>
+    </g>
+    <g id="Horizontal_bar_chart" data-name="Horizontal bar chart" transform="translate(419.947 328.947)">
+      <rect id="Rectangle_58" data-name="Rectangle 58" width="22.105" height="22.105" transform="translate(0 0)" fill="#6a6a6a" opacity="0"/>
+      <g id="Group_37810" data-name="Group 37810" transform="translate(4.158 3.947)">
+        <g id="Group_42823" data-name="Group 42823" transform="translate(-0.105 -0.895)">
+          <path id="Path_70241" data-name="Path 70241" d="M-1.226,285.09v16h16" transform="translate(1.226 -285.09)" fill="none" stroke="#85888a" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+          <line id="Line_1" data-name="Line 1" x2="5.395" transform="translate(4 12) rotate(-90)" fill="none" stroke="#85888a" stroke-linecap="round" stroke-width="1.5"/>
+          <line id="Line_2" data-name="Line 2" x2="10" transform="translate(8.038 12) rotate(-90)" fill="none" stroke="#85888a" stroke-linecap="round" stroke-width="1.5"/>
+          <line id="Line_3" data-name="Line 3" x2="8.395" transform="translate(12 12) rotate(-90)" fill="none" stroke="#85888a" stroke-linecap="round" stroke-width="1.5"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

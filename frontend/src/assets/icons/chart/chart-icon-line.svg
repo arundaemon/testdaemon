@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+  <g id="Group_42947" data-name="Group 42947" transform="translate(-416 -325)">
+    <g id="Group_42607" data-name="Group 42607" transform="translate(416 325)">
+      <g id="Rectangle_6222" data-name="Rectangle 6222" fill="#fff" stroke="#dedede" stroke-width="1">
+        <rect width="30" height="30" rx="4" stroke="none"/>
+        <rect x="0.5" y="0.5" width="29" height="29" rx="3.5" fill="none"/>
+      </g>
+    </g>
+    <g id="Horizontal_bar_chart" data-name="Horizontal bar chart" transform="translate(419.947 328.947)">
+      <rect id="Rectangle_58" data-name="Rectangle 58" width="22.105" height="22.105" transform="translate(0 0)" fill="#85888a" opacity="0"/>
+      <g id="Group_37810" data-name="Group 37810" transform="translate(4.158 3.947)">
+        <g id="Group_42823" data-name="Group 42823" transform="translate(-0.105 -0.895)">
+          <path id="Path_70241" data-name="Path 70241" d="M-1.226,285.09v16h16" transform="translate(1.226 -285.09)" fill="none" stroke="#85888a" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+          <path id="Path_70441" data-name="Path 70441" d="M11.732,3.572a.605.605,0,0,0-.587.587.573.573,0,0,0,.587.528h1.577L8.354,9.346,6.579,7.861a.571.571,0,0,0-.468-.2.538.538,0,0,0-.337.145L2.046,11.16a.585.585,0,0,0-.053.805.57.57,0,0,0,.8.026L6.163,8.963l1.795,1.491a.579.579,0,0,0,.805.046l2.528-2.376,2.863-2.691V7.109a.558.558,0,1,0,1.115,0V4.133a.577.577,0,0,0-.554-.561Z" transform="translate(0.731 -0.04)" fill="#85888a" stroke="#85888a" stroke-width="0.2"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

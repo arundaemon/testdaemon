@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+  <g id="Group_43023" data-name="Group 43023" transform="translate(-29 -410)">
+    <g id="Group_42978" data-name="Group 42978" transform="translate(-671 88)">
+      <g id="Group_42632" data-name="Group 42632" transform="translate(-10 -6)">
+        <g id="Group_42612" data-name="Group 42612" transform="translate(706 325)">
+          <g id="Rectangle_6222" data-name="Rectangle 6222" transform="translate(4 3)" fill="#fff" stroke="#dedede" stroke-width="1">
+            <rect width="30" height="30" rx="4" stroke="none"/>
+            <rect x="0.5" y="0.5" width="29" height="29" rx="3.5" fill="none"/>
+          </g>
+        </g>
+      </g>
+      <g id="Donut_chart" data-name="Donut chart" transform="translate(553 92.999)">
+        <rect id="Rectangle_58" data-name="Rectangle 58" width="24" height="24" transform="translate(150 232.001)" fill="#e0e0e0" opacity="0"/>
+      </g>
+    </g>
+    <g id="Group_42982" data-name="Group 42982" transform="translate(2.139 2.139)">
+      <g id="noun_List_Numbered_120493" data-name="noun_List Numbered_120493" transform="translate(33 414)">
+        <g id="Group_42995" data-name="Group 42995">
+          <g id="Rectangle_10081" data-name="Rectangle 10081" transform="translate(-0.139 -0.139)" fill="none" stroke="#85888a" stroke-width="1.5">
+            <rect width="18" height="18" rx="1" stroke="none"/>
+            <rect x="0.75" y="0.75" width="16.5" height="16.5" rx="0.25" fill="none"/>
+          </g>
+          <path id="Path_70470" data-name="Path 70470" d="M.529,11.476H8.662V.78" transform="translate(-0.06 -0.089)" fill="none" stroke="#85888a" stroke-width="1.5"/>
+          <path id="Path_70471" data-name="Path 70471" d="M8.5,10.025H.529V.78" transform="translate(8.073 7)" fill="none" stroke="#85888a" stroke-width="1.5"/>
+          <line id="Line_15" data-name="Line 15" x2="8.861" transform="translate(8.418 7.78)" fill="none" stroke="#85888a" stroke-width="1.5"/>
+          <path id="Path_70472" data-name="Path 70472" d="M14.208.78V8.262" transform="translate(-1.618 -0.089)" fill="none" stroke="#85888a" stroke-width="1.5"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

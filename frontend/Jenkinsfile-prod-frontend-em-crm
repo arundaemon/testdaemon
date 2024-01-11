@@ -1,0 +1,119 @@
+pipeline {
+  agent any
+   parameters {
+        string(defaultValue: "rajat.gupta@extramarks.com", description: 'git config user.email ', name: 'GIT_CONFIG_EMAIL')
+        string(defaultValue: "Rajat Gupta", description: 'git config user.name', name: 'GIT_CONFIG_USERNAME')
+        string(defaultValue: "prod", description: 'git switch branch', name: 'GIT_BRANCH_TO_SWITCH')
+        //string(defaultValue: "rajat.gupta@extramarks.com", description: 'put the emails for approvel ', name: 'Approvel_Emails')
+        string(defaultValue: "asia-south1-docker.pkg.dev/em-production-341708/extramarks/em-crm-msa-frontend/prod", description: 'put registry path for image ', name: 'Image_Registry_Path')
+        string(defaultValue: "em-crm-frontend-prod/k8s-prod/deployment.yaml", description: 'path of k8s manifestfiles', name: 'Manifest_Path')
+        booleanParam(name: 'SonarQube_Approval', defaultValue: false, description: 'Do you want SonarQube Test?')
+        //string(defaultValue: "5", description: 'select time for approval ', name: 'Approval_Time')
+        //string(defaultValue: "vatanbokade,rajatgupta", description: 'select time for approval ', name: 'Approval_Submitter_List')
+    }
+
+
+  stages {
+        
+    stage('Git') {
+      steps { 
+          
+        git branch: 'em-crm', credentialsId: 'rajatbuildpiperusercicd', url: 'https://gitlab.xtramarx.com/root/em-crm'
+      }
+    }
+
+
+         
+    stage('Build Docker image'){
+          steps{
+               
+                 sh "cd frontend && docker build --build-arg DOCKER_ENV=prod -t'${Image_Registry_Path}':${BUILD_NUMBER} -f em-crm-Dockerfile-prod ."
+          }
+      }
+    
+     stage('Docker push to Artifact Registry'){       
+                                steps{
+                                        sh "gcloud auth configure-docker asia-south1-docker.pkg.dev --quiet"
+                                        sh "docker push '${Image_Registry_Path}':${BUILD_NUMBER}"
+                                    }
+                                }
+ stage('SonarQube analysis'){
+                    when{
+                         expression {
+                          return params.SonarQube_Approval
+                         } 
+                    }
+                        
+                                steps{
+                                        withSonarQubeEnv(installationName: 'sonarqubepaid'){
+                                                    sh "gradle clean test"
+                                                    sh "gradle -x test sonarqube spotbugsMain "
+                                                    sh 'cp ${WORKSPACE}/build/reports/spotbugs/main.html cp ${WORKSPACE}/build/reports/spotbugs/spotbugs.html ${WORKSPACE}/build/reports/tests/test/index.html . || echo "Generated files"'
+                                                    }
+                                    }
+                }
+                /* stage('Download') {
+                            
+                                steps {
+                                        sh 'cp ${WORKSPACE}/build/reports/spotbugs/spotbugs.html ${WORKSPACE}/build/reports/tests/test/index.html . || echo "file not available"'
+                                    }
+                               } */
+               /* stage('send email for approvel'){
+                                steps{
+                                        emailext mimeType: 'text/html', attachmentsPattern: 'main.html, spotbugs.html, index.html ', body: '<p>Hi Team,</p> <p> Please approve the deployment.</p> <p> $PROJECT_NAME - Build # $BUILD_NUMBER - $BUILD_STATUS:</p> <p> Check console output at $BUILD_URL to view the results.</p> <p> Find the spotbugs.html report and Unit-Test Report </p>', recipientProviders: [[$class: 'DevelopersRecipientProvider'], [$class: 'RequesterRecipientProvider']], subject: '$PROJECT_NAME - Build with Unit-Test Report and spotbugsReort Approvel for Deployment # $BUILD_NUMBER - $BUILD_STATUS!', to: '${Approvel_Emails}'
+                                    }
+                                }
+
+                stage('Wait for build Approval'){
+                                steps{
+                                        timeout(time: params.Approval_Time.toInteger(), unit: 'MINUTES'){
+                                            input message:'Approve for build to execute?', submitter: params.Approval_Submitter_List
+                                        }
+                                    }
+                                } */
+        
+                stage('Git Clone for the k8s code'){
+                                steps {
+                                        git branch: 'prod', credentialsId: 'rajatbuildpiperusercicd', url: 'https://gitlab.xtramarx.com/root/k8s.git'
+                                     }
+                                }
+
+                stage('Update GIT') { 
+                                steps{
+                                    script{
+                                            catchError(buildResult: 'SUCCESS', stageResult: 'FAILURE'){
+                                                    withCredentials([usernamePassword(credentialsId: 'rajatbuildpiperusercicd', passwordVariable: 'GIT_PASSWORD', usernameVariable: 'GIT_USERNAME')]){        
+                                                            sh "git config user.email '${GIT_CONFIG_EMAIL}' "
+                                                            sh "git config user.name '${GIT_CONFIG_USERNAME}' "
+                                                            sh "git switch '${GIT_BRANCH_TO_SWITCH}' "
+                                                            sh "cat '${Manifest_Path}' "
+                                                            sh "sed -i 's+${Image_Registry_Path}.*+${Image_Registry_Path}:${BUILD_NUMBER}\"+g' ${Manifest_Path} "
+                                                            sh "cat '${Manifest_Path}' "
+                                                            sh "git add '${Manifest_Path}' "
+                                                            sh "git commit -m 'Done by Jenkins Job changemanifest: ${env.BUILD_NUMBER}'"
+                                                            withCredentials([string(credentialsId: 'RAJATGITLAB_TOKEN', variable: 'RAJATGITLAB_TOKEN')]) {
+                                                            sh "git push https://buildpiperusercicd:'$RAJATGITLAB_TOKEN'@gitlab.xtramarx.com/root/k8s.git HEAD:'${GIT_BRANCH_TO_SWITCH}' "
+                                                            }
+                                                        }                                      
+                                                }
+                                        }
+                                }
+                            }
+                             //                             stage('Updating tag')
+    // {       steps{
+    //             sh 'sed -i "s!currenttag!${BUILD_NUMBER}!g" k8s-qa/deployment.yaml '
+               
+    //        }
+    
+    //    }
+
+    //       stage('Deploy qa') {
+    //         steps{
+    //             sh 'gcloud container clusters get-credentials em-devuat-gke-cluster01 --zone asia-south1-a --project em-uat'
+    //             sh 'kubectl apply -f k8s-qa/'
+            
+    //         }
+    //      } 
+
+    }
+}

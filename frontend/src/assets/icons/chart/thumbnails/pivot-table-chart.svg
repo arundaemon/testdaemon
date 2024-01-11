@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="276" viewBox="0 0 600 276">
+  <g id="My_Dashboards" data-name="My Dashboards" transform="translate(-97 -149)">
+    <g id="_01" data-name="01" transform="translate(97 149)">
+      <rect id="Rectangle_6233" data-name="Rectangle 6233" width="599" height="54" transform="translate(0 1)" fill="#fff"/>
+      <rect id="Line" width="599" height="1" transform="translate(0 55)" fill="#efeded"/>
+      <rect id="Line-2" data-name="Line" width="599" height="1" fill="#efeded"/>
+    </g>
+    <g id="_02" data-name="02" transform="translate(97 205)">
+      <rect id="Rectangle_6233-2" data-name="Rectangle 6233" width="599" height="54" fill="#ecf1ff"/>
+      <rect id="Line-3" data-name="Line" width="599" height="1" transform="translate(0 54)" fill="#efeded"/>
+    </g>
+    <g id="_03" data-name="03" transform="translate(97 260)">
+      <rect id="Rectangle_6233-3" data-name="Rectangle 6233" width="599" height="54" fill="#fff"/>
+      <rect id="Line-4" data-name="Line" width="599" height="1" transform="translate(0 54)" fill="#efeded"/>
+    </g>
+    <g id="_03-2" data-name="03" transform="translate(97 370)">
+      <rect id="Rectangle_6233-4" data-name="Rectangle 6233" width="599" height="54" fill="#fff"/>
+      <rect id="Line-5" data-name="Line" width="599" height="1" transform="translate(0 54)" fill="#efeded"/>
+    </g>
+    <g id="_04" data-name="04" transform="translate(97 315)">
+      <rect id="Rectangle_6233-5" data-name="Rectangle 6233" width="599" height="54" transform="translate(1)" fill="#ecf1ff"/>
+      <rect id="Line-6" data-name="Line" width="599" height="1" transform="translate(0 54)" fill="#efeded"/>
+    </g>
+    <g id="Dashboard_ID" data-name="Dashboard ID" transform="translate(127 167)">
+      <path id="Path_70292" data-name="Path 70292" d="M224.905,68.937c0,2.727-1.094,4.937-2.445,4.937H183.349c-1.35,0-2.444-2.21-2.444-4.937S182,64,183.349,64h39.111C223.811,64,224.905,66.21,224.905,68.937Z" transform="translate(-180.905 -3)" opacity="0.1"/>
+      <path id="Path_70296" data-name="Path 70296" d="M224.905,68.937c0,2.727-1.094,4.937-2.445,4.937H183.349c-1.35,0-2.444-2.21-2.444-4.937S182,64,183.349,64h39.111C223.811,64,224.905,66.21,224.905,68.937Z" transform="translate(-180.905 -59)" opacity="0.1"/>
+      <path id="Path_70297" data-name="Path 70297" d="M224.905,68.937c0,2.727-1.094,4.937-2.445,4.937H183.349c-1.35,0-2.444-2.21-2.444-4.937S182,64,183.349,64h39.111C223.811,64,224.905,66.21,224.905,68.937Z" transform="translate(-0.905 -59)" opacity="0.1"/>
+      <path id="Path_70298" data-name="Path 70298" d="M224.905,68.937c0,2.727-1.094,4.937-2.445,4.937H183.349c-1.35,0-2.444-2.21-2.444-4.937S182,64,183.349,64h39.111C223.811,64,224.905,66.21,224.905,68.937Z" transform="translate(128.095 -59)" opacity="0.1"/>
+      <path id="Path_70299" data-name="Path 70299" d="M224.905,68.937c0,2.727-1.094,4.937-2.445,4.937H183.349c-1.35,0-2.444-2.21-2.444-4.937S182,64,183.349,64h39.111C223.811,64,224.905,66.21,224.905,68.937Z" transform="translate(263.095 -59)" opacity="0.1"/>
+      <path id="Path_70293" data-name="Path 70293" d="M224.905,68.937c0,2.727-1.094,4.937-2.445,4.937H183.349c-1.35,0-2.444-2.21-2.444-4.937S182,64,183.349,64h39.111C223.811,64,224.905,66.21,224.905,68.937Z" transform="translate(-180.905 51)" opacity="0.1"/>
+      <path id="Path_70294" data-name="Path 70294" d="M224.905,68.937c0,2.727-1.094,4.937-2.445,4.937H183.349c-1.35,0-2.444-2.21-2.444-4.937S182,64,183.349,64h39.111C223.811,64,224.905,66.21,224.905,68.937Z" transform="translate(-180.905 106)" opacity="0.1"/>
+      <path id="Path_70295" data-name="Path 70295" d="M224.905,68.937c0,2.727-1.094,4.937-2.445,4.937H183.349c-1.35,0-2.444-2.21-2.444-4.937S182,64,183.349,64h39.111C223.811,64,224.905,66.21,224.905,68.937Z" transform="translate(-180.905 162)" opacity="0.1"/>
+    </g>
+    <g id="Dashboard_Name" data-name="Dashboard Name" transform="translate(305.603 167)">
+      <path id="Path_70288" data-name="Path 70288" d="M224.905,68.937c0,2.727-1.094,4.937-2.445,4.937H183.349c-1.35,0-2.444-2.21-2.444-4.937S182,64,183.349,64h39.111C223.811,64,224.905,66.21,224.905,68.937Z" transform="translate(-180.508 -3)" opacity="0.1"/>
+      <path id="Path_70289" data-name="Path 70289" d="M224.905,68.937c0,2.727-1.094,4.937-2.445,4.937H183.349c-1.35,0-2.444-2.21-2.444-4.937S182,64,183.349,64h39.111C223.811,64,224.905,66.21,224.905,68.937Z" transform="translate(-180.508 51)" opacity="0.1"/>
+      <path id="Path_70290" data-name="Path 70290" d="M224.905,68.937c0,2.727-1.094,4.937-2.445,4.937H183.349c-1.35,0-2.444-2.21-2.444-4.937S182,64,183.349,64h39.111C223.811,64,224.905,66.21,224.905,68.937Z" transform="translate(-180.508 106)" opacity="0.1"/>
+      <path id="Path_70291" data-name="Path 70291" d="M224.905,68.937c0,2.727-1.094,4.937-2.445,4.937H183.349c-1.35,0-2.444-2.21-2.444-4.937S182,64,183.349,64h39.111C223.811,64,224.905,66.21,224.905,68.937Z" transform="translate(-180.508 162)" opacity="0.1"/>
+    </g>
+    <g id="Dashboard_Name-2" data-name="Dashboard Name" transform="translate(435.603 167)">
+      <path id="Path_70284" data-name="Path 70284" d="M224.905,68.937c0,2.727-1.094,4.937-2.445,4.937H183.349c-1.35,0-2.444-2.21-2.444-4.937S182,64,183.349,64h39.111C223.811,64,224.905,66.21,224.905,68.937Z" transform="translate(-180.508 -3)" opacity="0.1"/>
+      <path id="Path_70285" data-name="Path 70285" d="M224.905,68.937c0,2.727-1.094,4.937-2.445,4.937H183.349c-1.35,0-2.444-2.21-2.444-4.937S182,64,183.349,64h39.111C223.811,64,224.905,66.21,224.905,68.937Z" transform="translate(-180.508 51)" opacity="0.1"/>
+      <path id="Path_70286" data-name="Path 70286" d="M224.905,68.937c0,2.727-1.094,4.937-2.445,4.937H183.349c-1.35,0-2.444-2.21-2.444-4.937S182,64,183.349,64h39.111C223.811,64,224.905,66.21,224.905,68.937Z" transform="translate(-180.508 107)" opacity="0.1"/>
+      <path id="Path_70287" data-name="Path 70287" d="M224.905,68.937c0,2.727-1.094,4.937-2.445,4.937H183.349c-1.35,0-2.444-2.21-2.444-4.937S182,64,183.349,64h39.111C223.811,64,224.905,66.21,224.905,68.937Z" transform="translate(-180.508 162)" opacity="0.1"/>
+    </g>
+    <g id="Dashboard_Name-3" data-name="Dashboard Name" transform="translate(569.603 167)">
+      <path id="Path_70262" data-name="Path 70262" d="M224.905,68.937c0,2.727-1.094,4.937-2.445,4.937H183.349c-1.35,0-2.444-2.21-2.444-4.937S182,64,183.349,64h39.111C223.811,64,224.905,66.21,224.905,68.937Z" transform="translate(-180.508 -3)" opacity="0.1"/>
+      <path id="Path_70281" data-name="Path 70281" d="M224.905,68.937c0,2.727-1.094,4.937-2.445,4.937H183.349c-1.35,0-2.444-2.21-2.444-4.937S182,64,183.349,64h39.111C223.811,64,224.905,66.21,224.905,68.937Z" transform="translate(-180.508 51)" opacity="0.1"/>
+      <path id="Path_70282" data-name="Path 70282" d="M224.905,68.937c0,2.727-1.094,4.937-2.445,4.937H183.349c-1.35,0-2.444-2.21-2.444-4.937S182,64,183.349,64h39.111C223.811,64,224.905,66.21,224.905,68.937Z" transform="translate(-180.508 107)" opacity="0.1"/>
+      <path id="Path_70283" data-name="Path 70283" d="M224.905,68.937c0,2.727-1.094,4.937-2.445,4.937H183.349c-1.35,0-2.444-2.21-2.444-4.937S182,64,183.349,64h39.111C223.811,64,224.905,66.21,224.905,68.937Z" transform="translate(-180.508 162)" opacity="0.1"/>
+    </g>
+  </g>
+</svg>

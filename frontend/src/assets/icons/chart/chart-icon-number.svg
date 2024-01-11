@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+  <g id="Group_42846" data-name="Group 42846" transform="translate(-700 -322)">
+    <g id="Group_42632" data-name="Group 42632" transform="translate(-10 -6)">
+      <g id="Group_42612" data-name="Group 42612" transform="translate(706 325)">
+        <g id="Rectangle_6222" data-name="Rectangle 6222" transform="translate(4 3)" fill="#fff" stroke="#dedede" stroke-width="1">
+          <rect width="30" height="30" rx="4" stroke="none"/>
+          <rect x="0.5" y="0.5" width="29" height="29" rx="3.5" fill="none"/>
+        </g>
+      </g>
+    </g>
+    <g id="Donut_chart" data-name="Donut chart" transform="translate(553 92.999)">
+      <rect id="Rectangle_58" data-name="Rectangle 58" width="28" height="28" transform="translate(148 231.001)" fill="#e0e0e0" opacity="0"/>
+      <g id="noun_List_Numbered_120493" data-name="noun_List Numbered_120493" transform="translate(151.5 235.974)">
+        <g id="Rectangle_10081" data-name="Rectangle 10081" transform="translate(8)" fill="none" stroke="#85888a" stroke-width="1">
+          <rect width="13" height="7" rx="1" stroke="none"/>
+          <rect x="0.5" y="0.5" width="12" height="6" rx="0.5" fill="none"/>
+        </g>
+        <g id="Rectangle_10082" data-name="Rectangle 10082" transform="translate(8 11)" fill="none" stroke="#85888a" stroke-width="1">
+          <rect width="13" height="7" rx="1" stroke="none"/>
+          <rect x="0.5" y="0.5" width="12" height="6" rx="0.5" fill="none"/>
+        </g>
+        <text id="_1_2" data-name="1
+2" transform="translate(-0.5 7.026)" fill="#85888a" font-size="10" font-family="OpenSans-Bold, Open Sans" font-weight="700"><tspan x="0" y="0">1</tspan><tspan x="0" y="11">2</tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>

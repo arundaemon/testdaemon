@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="370" height="190" viewBox="0 0 370 190">
+  <defs>
+    <filter id="Rectangle_9655" x="0" y="0" width="370" height="190" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.102"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Card" transform="translate(-281 -236.275)">
+    <g id="Group_37798" data-name="Group 37798" transform="translate(290 245.275)">
+      <g transform="matrix(1, 0, 0, 1, -9, -9)" filter="url(#Rectangle_9655)">
+        <rect id="Rectangle_9655-2" data-name="Rectangle 9655" width="352" height="172" rx="8" transform="translate(9 9)" fill="#fa9e2d"/>
+      </g>
+      <g id="Group_42765" data-name="Group 42765" transform="translate(80.712 58.035)" opacity="0.4">
+        <text id="XXXXXXX" transform="translate(0.288 43.965)" fill="#fff" font-size="41" font-family="OpenSans-Bold, Open Sans" font-weight="700"><tspan x="0" y="0">XXXXXXX</tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>

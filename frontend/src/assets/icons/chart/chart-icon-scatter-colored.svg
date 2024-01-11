@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+  <g id="Group_43016" data-name="Group 43016" transform="translate(-416 -325)">
+    <g id="Group_42607" data-name="Group 42607" transform="translate(416 325)">
+      <rect id="Rectangle_6222" data-name="Rectangle 6222" width="30" height="30" rx="4" fill="#f45e29"/>
+    </g>
+    <g id="Horizontal_bar_chart" data-name="Horizontal bar chart" transform="translate(419.947 328.947)">
+      <rect id="Rectangle_58" data-name="Rectangle 58" width="22.105" height="22.105" transform="translate(0 0)" fill="#6a6a6a" opacity="0"/>
+      <g id="Group_37810" data-name="Group 37810" transform="translate(3.158 3.947)">
+        <g id="Group_42823" data-name="Group 42823" transform="translate(-0.105 -0.895)">
+          <path id="Path_70241" data-name="Path 70241" d="M-1.226,285.09v16h16" transform="translate(1.226 -285.09)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+        </g>
+      </g>
+      <g id="Group_42989" data-name="Group 42989" transform="translate(-152.947 -76.947)">
+        <g id="Ellipse_1077" data-name="Ellipse 1077" transform="translate(158 90)" fill="none" stroke="#fff" stroke-width="1.2">
+          <circle cx="2" cy="2" r="2" stroke="none"/>
+          <circle cx="2" cy="2" r="1.4" fill="none"/>
+        </g>
+        <g id="Ellipse_1079" data-name="Ellipse 1079" transform="translate(168 81)" fill="none" stroke="#fff" stroke-width="1.2">
+          <circle cx="2.5" cy="2.5" r="2.5" stroke="none"/>
+          <circle cx="2.5" cy="2.5" r="1.9" fill="none"/>
+        </g>
+        <g id="Ellipse_1080" data-name="Ellipse 1080" transform="translate(166 88)" fill="none" stroke="#fff" stroke-width="1.2">
+          <circle cx="2.5" cy="2.5" r="2.5" stroke="none"/>
+          <circle cx="2.5" cy="2.5" r="1.9" fill="none"/>
+        </g>
+        <g id="Ellipse_1078" data-name="Ellipse 1078" transform="translate(159 82)" fill="none" stroke="#fff" stroke-width="1.2">
+          <circle cx="3.5" cy="3.5" r="3.5" stroke="none"/>
+          <circle cx="3.5" cy="3.5" r="2.9" fill="none"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

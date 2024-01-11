@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+  <g id="Group_42894" data-name="Group 42894" transform="translate(-416 -325)">
+    <g id="Group_42607" data-name="Group 42607" transform="translate(416 325)">
+      <g id="Rectangle_6222" data-name="Rectangle 6222" fill="#fff" stroke="#dedede" stroke-width="1">
+        <rect width="30" height="30" rx="4" stroke="none"/>
+        <rect x="0.5" y="0.5" width="29" height="29" rx="3.5" fill="none"/>
+      </g>
+    </g>
+    <g id="Horizontal_bar_chart" data-name="Horizontal bar chart" transform="translate(418 330)">
+      <rect id="Rectangle_58" data-name="Rectangle 58" width="22.105" height="22.105" transform="translate(2 -1)" fill="#6a6a6a" opacity="0"/>
+      <g id="Group_37810" data-name="Group 37810" transform="translate(5.105 3.219)">
+        <g id="Group_42823" data-name="Group 42823" transform="translate(-0.105 -0.895)">
+          <path id="Path_70241" data-name="Path 70241" d="M-1.226,285.09v16h16" transform="translate(1.226 -285.09)" fill="none" stroke="#85888a" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+          <line id="Line_1" data-name="Line 1" y1="1.825" transform="translate(4 10.175)" fill="none" stroke="#85888a" stroke-linecap="round" stroke-width="1.5"/>
+          <line id="Line_2" data-name="Line 2" y1="4.825" transform="translate(7 7.175)" fill="none" stroke="#85888a" stroke-linecap="round" stroke-width="1.5"/>
+          <line id="Line_3" data-name="Line 3" y1="3.825" transform="translate(11 8.175)" fill="none" stroke="#85888a" stroke-linecap="round" stroke-width="1.5"/>
+          <line id="Line_9" data-name="Line 9" y1="6.825" transform="translate(15 5.175)" fill="none" stroke="#85888a" stroke-linecap="round" stroke-width="1.5"/>
+          <g id="Group_42854" data-name="Group 42854" transform="translate(2.642 0)">
+            <path id="Path_70242" data-name="Path 70242" d="M2.3,19.243a1.494,1.494,0,0,1,1.742-.271l1.437-1.437A1.494,1.494,0,1,1,8.1,17.481l1.461,1.461a1.5,1.5,0,0,1,1.38,0L12.4,17.483a1.495,1.495,0,1,1,.641.64L11.586,19.58a1.494,1.494,0,1,1-2.657.005L7.466,18.122a1.5,1.5,0,0,1-1.32.027L4.684,19.611A1.494,1.494,0,1,1,2.3,19.243Zm11.843-2.031a.588.588,0,1,0-.416.172A.584.584,0,0,0,14.144,17.212Zm-4.3,3.47a.588.588,0,1,0-.172-.416A.584.584,0,0,0,9.843,20.682Zm-3.5-3.5a.457.457,0,0,1,.072.059.423.423,0,0,1,.029.032.59.59,0,1,0-.1-.09Zm-3.4,3.529a.588.588,0,1,0-.172-.416A.584.584,0,0,0,2.941,20.714Z" transform="translate(-1.864 -15.302)" fill="#85888a"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,51 @@
+<svg id="Group_47107" data-name="Group 47107" xmlns="http://www.w3.org/2000/svg" width="540" height="276" viewBox="0 0 540 276">
+  <g id="_01" data-name="01" transform="translate(0)">
+    <rect id="Rectangle_6233" data-name="Rectangle 6233" width="539" height="54" transform="translate(0 1)" fill="#fff"/>
+    <rect id="Line" width="539" height="1" transform="translate(0 55)" fill="#efeded"/>
+    <rect id="Line-2" data-name="Line" width="539" height="1" fill="#efeded"/>
+  </g>
+  <g id="_02" data-name="02" transform="translate(0 56)">
+    <rect id="Rectangle_6233-2" data-name="Rectangle 6233" width="539" height="54" fill="#ecf1ff"/>
+    <rect id="Line-3" data-name="Line" width="539" height="1" transform="translate(0 54)" fill="#efeded"/>
+  </g>
+  <g id="_03" data-name="03" transform="translate(0 111)">
+    <rect id="Rectangle_6233-3" data-name="Rectangle 6233" width="539" height="54" fill="#fff"/>
+    <rect id="Line-4" data-name="Line" width="539" height="1" transform="translate(0 54)" fill="#efeded"/>
+  </g>
+  <g id="_03-2" data-name="03" transform="translate(0 221)">
+    <rect id="Rectangle_6233-4" data-name="Rectangle 6233" width="539" height="54" fill="#fff"/>
+    <rect id="Line-5" data-name="Line" width="539" height="1" transform="translate(0 54)" fill="#efeded"/>
+  </g>
+  <g id="_04" data-name="04" transform="translate(0 166)">
+    <rect id="Rectangle_6233-5" data-name="Rectangle 6233" width="539" height="54" transform="translate(1)" fill="#ecf1ff"/>
+    <rect id="Line-6" data-name="Line" width="539" height="1" transform="translate(0 54)" fill="#efeded"/>
+  </g>
+  <g id="Dashboard_ID" data-name="Dashboard ID" transform="translate(30 18)">
+    <text id="No_of_week" data-name="No of week" transform="translate(0 15)" fill="#202124" font-size="14" font-family="OpenSans-Bold, Open Sans" font-weight="700"><tspan x="0" y="0">No of week</tspan></text>
+    <text id="_--" data-name="--" transform="translate(0 70)" fill="#202124" font-size="14" font-family="OpenSans, Open Sans"><tspan x="0" y="0">--</tspan></text>
+    <text id="_---2" data-name="--" transform="translate(0 125)" fill="#202124" font-size="14" font-family="OpenSans, Open Sans"><tspan x="0" y="0">--</tspan></text>
+    <text id="_---3" data-name="--" transform="translate(0 180)" fill="#202124" font-size="14" font-family="OpenSans, Open Sans"><tspan x="0" y="0">--</tspan></text>
+    <text id="_---4" data-name="--" transform="translate(0 236)" fill="#202124" font-size="14" font-family="OpenSans, Open Sans"><tspan x="0" y="0">--</tspan></text>
+  </g>
+  <g id="Dashboard_Name" data-name="Dashboard Name" transform="translate(187 18)">
+    <text id="Name1" transform="translate(0 15)" fill="#202124" font-size="14" font-family="OpenSans-Bold, Open Sans" font-weight="700"><tspan x="0" y="0">Name1</tspan></text>
+    <text id="_---5" data-name="--" transform="translate(0 70)" fill="#202124" font-size="14" font-family="OpenSans, Open Sans"><tspan x="0" y="0">--</tspan></text>
+    <text id="_---6" data-name="--" transform="translate(0 125)" fill="#202124" font-size="14" font-family="OpenSans, Open Sans"><tspan x="0" y="0">--</tspan></text>
+    <text id="_---7" data-name="--" transform="translate(0 180)" fill="#202124" font-size="14" font-family="OpenSans, Open Sans"><tspan x="0" y="0">--</tspan></text>
+    <text id="_---8" data-name="--" transform="translate(0 236)" fill="#202124" font-size="14" font-family="OpenSans, Open Sans"><tspan x="0" y="0">--</tspan></text>
+  </g>
+  <g id="Dashboard_Name-2" data-name="Dashboard Name" transform="translate(323 18)">
+    <text id="Name2" transform="translate(0 15)" fill="#202124" font-size="14" font-family="OpenSans-Bold, Open Sans" font-weight="700"><tspan x="0" y="0">Name2</tspan></text>
+    <text id="_---9" data-name="--" transform="translate(0 70)" fill="#202124" font-size="14" font-family="OpenSans, Open Sans"><tspan x="0" y="0">--</tspan></text>
+    <text id="_---10" data-name="--" transform="translate(0 125)" fill="#202124" font-size="14" font-family="OpenSans, Open Sans"><tspan x="0" y="0">--</tspan></text>
+    <text id="_---11" data-name="--" transform="translate(0 180)" fill="#202124" font-size="14" font-family="OpenSans, Open Sans"><tspan x="0" y="0">--</tspan></text>
+    <text id="_---12" data-name="--" transform="translate(0 236)" fill="#202124" font-size="14" font-family="OpenSans, Open Sans"><tspan x="0" y="0">--</tspan></text>
+  </g>
+  <g id="Dashboard_Name-3" data-name="Dashboard Name" transform="translate(459 18)">
+    <text id="Name3" transform="translate(0 15)" fill="#202124" font-size="14" font-family="OpenSans-Bold, Open Sans" font-weight="700"><tspan x="0" y="0">Name3</tspan></text>
+    <text id="_---13" data-name="--" transform="translate(0 70)" fill="#202124" font-size="14" font-family="OpenSans, Open Sans"><tspan x="0" y="0">--</tspan></text>
+    <text id="_---14" data-name="--" transform="translate(0 125)" fill="#202124" font-size="14" font-family="OpenSans, Open Sans"><tspan x="0" y="0">--</tspan></text>
+    <text id="_---15" data-name="--" transform="translate(0 180)" fill="#202124" font-size="14" font-family="OpenSans, Open Sans"><tspan x="0" y="0">--</tspan></text>
+    <text id="_---16" data-name="--" transform="translate(0 236)" fill="#202124" font-size="14" font-family="OpenSans, Open Sans"><tspan x="0" y="0">--</tspan></text>
+  </g>
+</svg>

@@ -1,0 +1,173 @@
+
+import moment from 'moment';
+import { TableContainer, Paper, Table, TableHead, TableRow, TableCell, TableBody, Button, Modal, Fade, Box, Typography } from '@mui/material';
+import EditIcon from "../../assets/icons/edit-icon.svg";
+import DeleteIcon from "../../assets/icons/icon_trash.svg";
+import { Link, useNavigate } from 'react-router-dom'
+import _ from 'lodash';
+import { updateHardwareBundle } from '../../config/services/hardwareBundleAndPart';
+import { toast } from 'react-hot-toast';
+import { useState } from 'react';
+import { makeStyles } from '@mui/styles';
+import { getUserData } from '../../helper/randomFunction/localStorage';
+
+const useStyles = makeStyles((theme) => ({
+    modal: {
+        display: 'flex',
+        alignItems: 'center',
+        justifyContent: 'center',
+        overflow: 'auto'
+    },
+    modalPaper: {
+        backgroundColor: theme.palette.background.paper,
+        border: '2px solid #fff',
+        boxShadow: '0px 0px 4px #0000001A',
+        minWidth: '300px',
+        borderRadius: '4px',
+        textAlign: 'center',
+    },
+    modalTitle: {
+        fontSize: '18px',
+    },
+    outlineButton: {
+        color: '#85888A',
+        fontSize: '14px',
+        border: '1px solid #DEDEDE',
+        borderRadius: '4px',
+        fontWeight: 'normal',
+        marginRight: '10px',
+        padding: '0.5rem 1.5rem'
+    },
+    containedButton: {
+        color: '#fff',
+        fontSize: '14px',
+        border: '1px solid #F45E29',
+        borderRadius: '4px',
+        fontWeight: 'normal',
+        padding: '0.5rem 1.5rem'
+    }
+}));
+
+export default function HardwareBundleTable(props) {
+    const navigate = useNavigate()
+    const classes = useStyles();
+    const [deletePopup, setDeletePopup] = useState(false);
+    const [deleteObj, setDeleteObj] = useState("")
+    const { response, pageNo, itemsPerPage, getHardwareBundleList } = props
+    const loginData = getUserData('loginData')
+    const loggedInUser = loginData?.uuid
+
+
+
+
+    const handleCancelDelete = () => {
+        setDeletePopup(false)
+        setDeleteObj({})
+    }
+
+    const handleModelView = (row) => {
+        setDeletePopup(true)
+        setDeleteObj(row)
+    }
+
+    const submitDeleteStatus = (row) => {
+        setDeletePopup(false)
+        handleButtonClick(row, 'delete')
+    }
+
+
+    const handleButtonClick = async (row, type) => {
+        if (type === 'delete') {
+            let obj = {
+                bundle_id: parseInt(row?.bundle_id),
+                bundle_name: row?.bundle_name,
+                bundle_description: row?.bundle_description,
+                status: 3,
+                uuid:loggedInUser
+            }
+            try {
+                const response = await updateHardwareBundle(obj)
+                response.data.status === 1 ? toast.success('Entry deleted successfully!') : toast.error(response?.data.message)
+                getHardwareBundleList()
+            }
+            catch (err) {
+                console.log("error in updateHardwareBundle: ", err);
+                toast.error("***Error***");
+
+            }
+        }
+        else if (type === 'edit') {
+            navigate(`/authorised/hardware-bundle-form/${row?.bundle_id}`, { state: { row: row } })
+        }
+    }
+
+    return (
+        <>
+            <Table aria-label="customized table" className="custom-table datasets-table">
+                <TableHead >
+                    <TableRow className='cm_table_head'>
+                        <TableCell >S.No.</TableCell>
+                        <TableCell >Bundle Name</TableCell>
+                        <TableCell >Created By</TableCell>
+                        <TableCell >Created Date</TableCell>
+                        <TableCell >Updated Date</TableCell>
+                        <TableCell >Status</TableCell>
+                        <TableCell >Action</TableCell>
+                    </TableRow>
+                </TableHead>
+
+                <TableBody>
+                    {response && response?.length > 0 && response.map((row, i) => (
+                        <TableRow key={i}>
+                            <TableCell>{(i + 1) + ((pageNo - 1) * itemsPerPage)}.</TableCell>
+                            <TableCell>{row?.bundle_name}</TableCell>
+                            <TableCell>{row?.created_by}</TableCell>
+                            <TableCell>{moment(row?.created_on * 1000).format('DD-MM-YYYY (HH:mm A)')}</TableCell>
+                            <TableCell>{row?.modified_on
+                                ? moment(row?.modified_on * 1000).format('DD-MM-YYYY (HH:mm A)')
+                                : moment(row?.created_on * 1000).format('DD-MM-YYYY (HH:mm A)')}</TableCell>
+                            <TableCell>{row?.status === 1 ? "Active" : "Deleted"}</TableCell>
+
+                            <TableCell className="edit-cell action-cell">
+                                <Button className='form_icon' onClick={() => handleButtonClick(row, 'edit')}>
+                                    <img src={EditIcon} alt='' />
+                                </Button>
+                                <Button className='form_icon' onClick={() => handleModelView(row)}><img src={DeleteIcon} alt='' /></Button>
+                            </TableCell>
+                        </TableRow>
+
+                    ))}
+                </TableBody>
+            </Table>
+            <Modal
+                aria-labelledby="transition-modal-title"
+                aria-describedby="transition-modal-description"
+                className={classes.modal}
+                open={deletePopup}
+                closeAfterTransition
+            >
+                <Fade in={deletePopup}>
+                    <Box className={classes.modalPaper + " modal-box modal-md"} id="transition-modal-title">
+                        <Box className="modal-header p-1" >
+                            <Typography variant="subtitle1" className={classes.modalTitle + " modal-header-title"} >
+                                {`Are you sure you want to delete this row ?`}
+                            </Typography>
+                        </Box>
+                        {/* <Box className="modal-content text-left"> */}
+                        <Box className="modal-footer text-right" >
+                            <Button onClick={handleCancelDelete} className={" report_form_ui_btn cancel mr-2"} color="primary" variant="outlined" > Cancel </Button>
+                            <Button onClick={() => submitDeleteStatus(deleteObj)} color="primary" autoFocus className={" report_form_ui_btn submit"} variant="contained"> Delete </Button>
+                        </Box>
+                        {/* </Box> */}
+                    </Box>
+                </Fade>
+            </Modal>
+        </>
+    )
+}
+
+
+
+
+
+

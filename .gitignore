@@ -1,0 +1,10 @@
+.env
+node_modules
+build
+build_dev
+build_test
+local.js
+app.log
+newrelic_agent.log
+.vscode
+api/package-lock.json
