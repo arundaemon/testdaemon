@@ -1,4 +1,26 @@
 ---
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  name: em-crm-msa-jenkins-ns-frontend
+  annotations:
+    kubernetes.io/ingress.class: ingress-nginx
+    cert-manager.io/cluster-issuer: letsencrypt-prod
+spec:
+  tls:
+  - hosts:
+    - demo.domain.ext
+    secretName: hello-kubernetes-tls
+  rules:
+  - host: demo.domain.ext
+    http:
+      paths:
+      - backend:
+          serviceName: em-crm-msa-jenkins-ns-frontend-service
+          servicePort: 3000
+	path: /
+        pathType: Prefix
+---
 apiVersion: "apps/v1"
 kind: "Deployment"
 metadata:
