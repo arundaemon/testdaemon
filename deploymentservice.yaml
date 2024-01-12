@@ -26,34 +26,6 @@ spec:
             cpu: 200m
             memory: 400Mi
 ---
-apiVersion: "autoscaling/v2beta1"
-kind: "HorizontalPodAutoscaler"
-metadata:
-  name: "em-crm-msa-jenkins-ns-frontend"
-  namespace: "jenkins-ns"
-  labels:
-    app: "em-crm-msa-jenkins-ns-frontend"
-spec:
-  scaleTargetRef:
-    kind: "Deployment"
-    name: "em-crm-msa-jenkins-ns-frontend"
-    apiVersion: "apps/v1"
-  minReplicas: 1
-  maxReplicas: 1
-  metrics:
-  - type: "Resource"
-    resource:
-      name: "cpu"
-      target:
-        type: Utilization
-        averageUtilization: 60
-  - type: "Resource"
-    resource:
-      name: "memory"
-      target:
-        type: Utilization
-        averageUtilization: 60
----        
 apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
