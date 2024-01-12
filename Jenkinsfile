@@ -13,14 +13,14 @@ git branch: 'dockerpipe', credentialsId: 'git_accees_user', url: 'https://github
     
 }
 }
-stage('Building our image') {
+/*stage('Building our image') {
 steps{
 script {
 dockerImage = docker.build registry + ":$BUILD_NUMBER"
 }
 }
 }
-stage('Deploy our image') {
+stage('Pushing our image') {
 steps{
 script {
 docker.withRegistry( '', registryCredential ) {
@@ -33,11 +33,11 @@ stage('Cleaning up') {
 steps{
 sh "docker rmi $registry:$BUILD_NUMBER"
 }
-}
+}/*
 stage('Deploy to k8s'){
             steps{
                 script{
-                    kubernetesDeploy (configs: 'deploymentservice.yaml',kubeconfigId: 'k8sconfigpwd')
+                    kubernetesDeploy (configs: 'deploymentservice.yaml',kubeconfigId: 'k8configpwd')
                 }
             }
         }
