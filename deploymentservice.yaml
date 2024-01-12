@@ -37,7 +37,7 @@ spec:
   scaleTargetRef:
     kind: "Deployment"
     name: "em-crm-msa-jenkins-ns-frontend"
-    apiVersion: "extensions/v1beta1"
+    apiVersion: "apps/v1"
   minReplicas: 1
   maxReplicas: 1
   metrics:
