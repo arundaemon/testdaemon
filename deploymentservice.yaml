@@ -5,7 +5,7 @@ metadata:
   labels:
     app: em-crm-msa-jenkins-ns-frontend
   name: em-crm-msa-jenkins-ns-frontend
-  namespace: jenkins-ns
+  namespace: ingress-nginx
   annotations:
           #    kubernetes.io/ingress.class: nginx
     kubernetes.io/ingress.class: ingress-nginx
